@@ -1,0 +1,62 @@
+.feedback-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-color:white ;
+  /* height: auto; */
+}
+
+.feedback-content {
+  padding: 20px;
+  background-color: #7a6ad8;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 600px;
+  border-color:white ;
+
+  margin: auto;
+}
+
+.feedback-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.feedback-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+
+}
+
+.feedback-text {
+  color: white;
+  font-size: 13px;
+  font-style: italic;
+}
+
+
+.slick-arrow2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2rem;
+  color: #7a6ad8;
+  z-index: 2; /* Ensure the arrows are on top of other elements */
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Add background for better visibility */
+  padding: 5px; /* Optional: Add padding for better click area */
+  border-radius: 50%; /* Optional: Make the arrows circular */
+}
+
+.slick-prev2 {
+  left: 10px;
+}
+
+.slick-next2 {
+  right: 10px;
+}
